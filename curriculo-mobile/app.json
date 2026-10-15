@@ -4,6 +4,7 @@
     "slug": "curriculo-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
+    "owner": "luc4zzs-team",
     "icon": "./assets/images/icon.png",
     "scheme": "curriculomobile",
     "userInterfaceStyle": "dark",
@@ -33,6 +34,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0b642d0b-f7d1-4b99-8583-88a9e085ae58"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0b642d0b-f7d1-4b99-8583-88a9e085ae58"
+    },
+    "ios": {}
   }
 }
